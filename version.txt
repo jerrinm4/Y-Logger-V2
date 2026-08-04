@@ -1,1 +1,1 @@
-Release v1.0.23
+Release v1.0.24
