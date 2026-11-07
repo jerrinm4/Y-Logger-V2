@@ -14,9 +14,11 @@ backfill offline activity.
 
 ## Shared birthdays and work anniversaries
 
-Administrators can assign a phone/account to a company directory with Off,
-Read only, or Read & write access. New installations default to Off. Access
-does not follow merely from knowing an account reference or company name.
+Administrators choose Off, Read only, or Read & write for each phone/account.
+New installations default to Off. Approved phones using the same attendance
+service share dates automatically, without a company selection or setup step.
+Access requires the installation credential and administrator permission; an
+account reference alone does not grant access.
 
 Authorized reads download employee identifiers, minimal display names,
 birthdays (including a year only when known), joining dates and work-anniversary
@@ -41,7 +43,7 @@ signed-out phones do not synchronize dates. Automatic sync pauses in the
 background and during Stealth.
 
 The service does not collect precise location, phone contacts, messages, IMEI,
-or device serial numbers. Records are available only within their authorized
-company directory or to approved administrators. Existing usage records remain
+or device serial numbers. Shared records are available only to authorized phones using the same
+attendance service, or to approved administrators. Existing usage records remain
 until removed by the owner. Access, correction, or deletion requests can be
 directed to the YLogger project owner through the app's distribution channel.
