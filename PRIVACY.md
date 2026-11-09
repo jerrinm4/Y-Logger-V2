@@ -14,7 +14,8 @@ backfill offline activity.
 
 ## Shared birthdays and work anniversaries
 
-Administrators choose Off, Read only, or Read & write for each phone/account.
+Administrators independently enable Read and Write for each phone/account,
+allowing Off, Read only, Write only, or both.
 New installations default to Off. Approved phones using the same attendance
 service share dates automatically, without a company selection or setup step.
 Access requires the installation credential and administrator permission; an
@@ -30,8 +31,9 @@ Attendance, leave balances, contact information and full profiles are excluded.
 Dates remain cached for offline use. Shared records remain until an
 administrator corrects or removes them. Removing a shared entry propagates on
 the next successful synchronization; original-service data and personal local
-edits remain on the phone. Revoking access blocks further API reads/writes and
-clears downloaded-only dates when the phone next refreshes its access status.
+edits remain on the phone. Revoking Read blocks further downloads and clears
+downloaded-only dates when the phone next refreshes its access status. Revoking
+Write blocks further contributions without deleting original or local dates.
 An offline phone may retain a previously downloaded copy until it reconnects.
 
 ## Storage, control and requests
